@@ -25,4 +25,4 @@ Artist2={"Aiden":[3,"WA"], "Britney":[20, "PA"], "Christina":[12,"NM"],
 for k in Artist2:
     print("El artista", k, "tiene", Artist2[k][0],
           "discos y vive en",Artist2[k][1])
-        
+print("David" in Artist2.keys())        
